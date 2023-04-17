@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js" defer></script>
+    <title>Jogo de Dados Online</title>
+</head>
+
+<body>
+    <h1>Jogo de Dados Online</h1>
+    <div>
+        <button id="jogarDado1">Jogar Dado 1</button>
+        <button id="jogarDado2" disabled>Jogar Dado 2</button>
+        <button id="reiniciar">Reiniciar</button>
+    </div>
+    <div>
+        <p>RODADA: <span id="rodada">1</span></p>
+    </div>
+    <div>
+        <hr>
+        <p>PLACAR</p>
+        <p>Jogador 1: <span id="placarJogador1">0</span></p>
+        <p>Jogador 2: <span id="placarJogador2">0</span></p>
+        <p>Empates: <span id="placarEmpate">0</span></p>
+        <hr>
+    </div>
+    <div>
+        <table>
+            <tr id="jogadas1">DADO 1:</tr>
+        </table>
+        <br>
+        <br>
+        <table>
+            <tr id="jogadas2">DADO 2:</tr>
+        </table>
+        <br>
+        <br>
+        <hr>
+    </div>
+    <div>
+        <p>RESULTADO DA RODADA: <span id="resultadoRodada"></span></p>
+        <p>RESULTADO DA PARTIDA: <span id="vencedorPartida">-</span></p>
+    </div>
+</body>
+
+</html>
